@@ -20,14 +20,12 @@
 
             Console.WriteLine("\nImpares");
             aux = inicio;
-            
             do
             {
                 aux++;
                 if(aux%2 != 0)
                     Console.Write(aux + " ");
             }while(aux < fim);
-
         }
     }
 }
